@@ -13,9 +13,14 @@ $> conda activate taucmdr
 (tacumdr) $> cd [path-to-taucmdr-lab-extension-folder]
 (taucmdr) $> jlpm install
 (taucmdr) $> jupyter labextension install . --no-build
+(taucmdr) $> conda install -c plotly plotly=4.7.1
+(taucmdr) $> conda install "ipywidgets=7.5"
+(taucmdr) $> jupyter labextension install jupyterlab-plotly@4.7.1
+(taucmdr) $> jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.7.1
 ```
 
 #### Launch Jupyter Lab
+By default, the following command starts jupyter lab and loads it in your default web browser. If prompted by Jupyter Lab, allow it to "Build".
 ```
 $> conda activate taucmdr
 (taucmdr) $> jupyter lab
