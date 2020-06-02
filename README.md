@@ -7,7 +7,7 @@ $> conda create -n taucmdr \
   --strict-channel-priority \
   -c conda-forge \
   -c anaconda \
-  python=3.6 jupyterlab nodejs git
+  python=3.6 jupyterlab nodejs
 
 $> conda activate taucmdr
 (tacumdr) $> cd [path-to-taucmdr-lab-extension-folder]
